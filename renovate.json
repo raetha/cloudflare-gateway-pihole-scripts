@@ -7,6 +7,6 @@
     ":automergeMinor"
   ],
   "github-actions": {
-    "fileMatch": ["^auto_update_github_action.yml$"]
+    "fileMatch": ["(^|/)examples/auto_update_github_action\.yml$"]
   }
 }

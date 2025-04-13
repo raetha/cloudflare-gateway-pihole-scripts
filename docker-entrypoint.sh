@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Add cron entry
-echo "$CRON_SCHEDULE /usr/local/bin/npm cloudflare-refresh --prefix /app/" | crontab -
+echo "$CRON_SCHEDULE /usr/local/bin/npm run cloudflare-refresh --prefix /app/" | crontab -
 
 # Start crond
 echo "Starting crond..."
